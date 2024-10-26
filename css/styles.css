@@ -108,7 +108,9 @@ body {
   padding: 70px 0px 0px;
   letter-spacing: 0.2px;
 }
-
+.dnone{
+  display: none;
+}
 main {
   width: 100%;
   max-width: 100%;
@@ -436,6 +438,11 @@ h3.heading2::before{
     text-align: center;
     margin-top: 25px;
 }
+img.frameborder {
+  position: absolute;
+  top: -42px;
+  right: 50px;
+}
 /* about section ends */
 /* ourstory start */
 .ourstory{
@@ -629,7 +636,7 @@ p.decotext {
   font-weight: 300;
   font-style: normal;
   line-height: 1.6;
-  padding-right: 25px;
+  /* padding-right: 25px; */
   margin-bottom: 10px;
 }
 img.decoimage2img {
@@ -725,10 +732,13 @@ p.signtext {
 .dflex {
   display: flex;
   gap: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   width: 100%;
+  align-items: flex-end;
 }
-
+.col1.dflex {
+  margin-bottom: 0;
+}
 .signupform label {
   font-weight: 500;
   font-family: SofiaPro;
@@ -872,10 +882,13 @@ ul.footerlinks li a {
 }
 .socialicons {
   display: flex;
-  height: 90px;
+  height: 70px;
   gap: 15px;
   align-items: end;
   justify-content: center;
+}
+img.footerlogo {
+  margin-top: 15px;
 }
 /* footer ends */
 img {
